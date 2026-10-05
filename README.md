@@ -1,13 +1,13 @@
 # Vidhya Vedha
 
-[![CI](https://github.com/guvvalakarthik/vidhyavedhaproject/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/guvvalakarthik/vidhyavedhaproject/actions/workflows/ci.yml)
-[![Production smoke](https://github.com/guvvalakarthik/vidhyavedhaproject/actions/workflows/production-smoke.yml/badge.svg?branch=main)](https://github.com/guvvalakarthik/vidhyavedhaproject/actions/workflows/production-smoke.yml)
+[![CI](https://github.com/Ravendrapawar51/vidhyavedhaproject/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Ravendrapawar51/vidhyavedhaproject/actions/workflows/ci.yml)
+[![Production smoke](https://github.com/Ravendrapawar51/vidhyavedhaproject/actions/workflows/production-smoke.yml/badge.svg?branch=main)](https://github.com/Ravendrapawar51/vidhyavedhaproject/actions/workflows/production-smoke.yml)
 
 Vidhya Vedha is a full-stack civic and local-services platform for rural communities. The current rebuild is moving the product from generic request forms toward task-specific journeys such as appointment scheduling, assisted government-service handoffs, bookings, dispatch, and status tracking.
 
 ## Release evidence
 
-- **Live deployment:** [vidhyavedhaproject.vercel.app](https://vidhyavedhaproject.vercel.app)
+- **Live deployment:** [vidhyavedhaproject.vercel.app](https://vidhyavedha.vercel.app/)
 - **Continuous integration:** every pull request and `main` push runs frontend tests/build, backend tests, dependency policy, and repository-hygiene checks.
 - **Production verification:** a post-deployment and daily smoke workflow checks database readiness, authentication protection, Google sign-in configuration, and non-empty APIs for all nine service categories.
 - **Protected release branch:** `main` requires a pull request and green CI/Vercel checks; force pushes and branch deletion are disabled.
